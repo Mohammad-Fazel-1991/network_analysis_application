@@ -28,5 +28,7 @@ docker run network_analysis_app
 - Make the script executable and run it:
 ```
 sed -i 's/\r$//' run_pipeline.sh
+```
+```
 ./run_pipeline.sh
 ```   
