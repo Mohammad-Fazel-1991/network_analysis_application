@@ -1,26 +1,32 @@
 # Network Analysis Application
 
 ## Introduction
-This project is a comprehensive network analysis tool designed to calculate the "betweenness", "closeness" and "PageRank" on all of the nodes for Facebook-Ego dataset
+This tool performs network analysis, calculating "betweenness", "closeness", and "PageRank" for the Facebook-Ego dataset.
 
 ## Prerequisites
-Before you begin, ensure you have met the following requirements:
-- Docker is installed on your machine.
+- Docker installed on your machine.
 
-## Setup
-To set up the Network Analysis Application, follow these steps:
+## Setup & Usage
 
-1. Clone the repository in your local machine  
-   git clone [https://github.com/Mohammad-Fazel-1991/network_analysis_application]
+**Cloning the Repository:**
+```
+git clone https://github.com/Mohammad-Fazel-1991/network_analysis_application
+```
+## Running the Application:
 
-3.  Navigate to the project directory: cd network_analysis
+**Option 1 - Using Docker:**
+- Build Docker Image
+```
+docker build -t network_analysis_app .
+```
+- Run the Docker Image
+ ```
+docker run network_analysis_app
+```   
+**Option 2 - Using Shell Script:**
 
-## Usage
-To run the Network Analysis Application, follow these steps:
-1. Make the script executable (if on a Unix-like system):
-   chmod +x run_pipeline.sh
-2. Run the script:
-   ./run_pipeline.sh 
-   
-  
-
+- Make the script executable and run it:
+```
+chmod +x run_pipeline.sh
+./run_pipeline.sh
+```   
