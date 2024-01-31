@@ -10,8 +10,10 @@ Before you begin, ensure you have met the following requirements:
 ## Setup
 To set up the Network Analysis Application, follow these steps:
 
-1. Clone the repository: https://github.com/Mohammad-Fazel-1991/network_analysis_application
-2.  Navigate to the project directory: cd network_analysis
+1. Clone the repository in your local machine  
+   git clone https://github.com/Mohammad-Fazel-1991/network_analysis_application
+
+3.  Navigate to the project directory: cd network_analysis
 
 ## Usage
 To run the Network Analysis Application, follow these steps:
