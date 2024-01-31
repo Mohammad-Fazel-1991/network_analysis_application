@@ -27,6 +27,6 @@ docker run network_analysis_app
 
 - Make the script executable and run it:
 ```
-chmod +x run_pipeline.sh
+sed -i 's/\r$//' run_pipeline.sh
 ./run_pipeline.sh
 ```   
